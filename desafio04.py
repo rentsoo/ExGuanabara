@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    a = input('Digite algo: ')
+    print('O tipo primitivo desse valor é: ', type(a))
+    print('Só tem espaços? ', a.isspace())
+    print('É um número? ', a.isnumeric())
+    print('É alfabetico? ', a.isalpha())
+    print('É alfanumerico ', a.isalnum())
+    print('Está em maiúsculas? ', a.isupper())
+    print('Está em minúsculas? ', a.islower())
+    print('Esrtá capitalizada? ', a.istitle())
